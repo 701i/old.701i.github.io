@@ -75,11 +75,14 @@ a:hover{
   height: 100px ;
   border-radius: 25px;
   overflow: hidden;
+  perspective: 100px;
 }
 .aside-card img{
   height: 100%;
 }
-
+.aside-card:hover img{
+  transform: rotateX(45deg);
+}
 .article{
   background-color: rgba(0, 0, 0, 0.4);
   display: inherit;
